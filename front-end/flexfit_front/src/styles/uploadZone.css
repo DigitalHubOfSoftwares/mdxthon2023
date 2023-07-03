@@ -1,0 +1,10 @@
+.dropzone .dz-preview .dz-image {
+	width: 100% !important;
+	height: 100% !important; 
+	border-radius: none !important;
+}
+
+.dropzone .dz-preview {
+	border-radius: 20px;
+	overflow: hidden;
+}

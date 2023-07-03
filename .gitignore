@@ -1,0 +1,49 @@
+###> symfony/framework-bundle ###
+/backend/flexfit_backend/.env.local
+/backend/flexfit_backend/.env.local.php
+/backend/flexfit_backend/.env.*.local
+/backend/flexfit_backend/config/secrets/prod/prod.decrypt.private.php
+/backend/flexfit_backend/public/bundles/
+/backend/flexfit_backend/var/
+/backend/flexfit_backend/vendor/
+###< symfony/framework-bundle ###
+
+
+###Front####
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+/front-end/flexfit_front/node_modules
+/front-end/flexfit_front/.pnp
+/front-end/flexfit_front/.pnp.js
+
+# testing
+/front-end/flexfit_front/coverage
+
+# next.js
+/front-end/flexfit_front/.next/
+/front-end/flexfit_front/out/
+
+# production
+/front-end/flexfit_front/build
+
+# misc
+/front-end/flexfit_front/.DS_Store
+/front-end/flexfit_front/*.pem
+
+# debug
+/front-end/flexfit_front/npm-debug.log*
+/front-end/flexfit_front/yarn-debug.log*
+/front-end/flexfit_front/yarn-error.log*
+
+# local env files
+/front-end/flexfit_front/.env*.local
+
+# vercel
+/front-end/flexfit_front/.vercel
+
+# typescript
+/front-end/flexfit_front/*.tsbuildinfo
+/front-end/flexfit_front/next-env.d.ts
+
+###EndFront###
